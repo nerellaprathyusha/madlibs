@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assign7_madlibs.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assign7_madlibs.js" defer></script>
+    <title>Prathyusha's Crazy Mad Libs Story</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mad Libs</h1>
+    </header>
+    <main>
+      <div id="formContainer">
+        <form id="madLibsForm">
+          <label for="noun1">Name:</label>
+          <input type="text" id="noun1" value="Prathyusha" />
+          <br />
+          <label for="noun2">Vehicle:</label>
+          <input type="text" id="noun2" value="car" />
+          <br />
+          <label for="adjective">Adjective:</label>
+          <input type="text" id="adjective" value="colorful" />
+          <br />
+          <label for="adverb">Adverb:</label>
+          <input type="text" id="adverb" value="quickly" />
+          <br />
+          <button type="button" id="tellStoryBtn">Tell Story</button>
+        </form>
+      </div>
+
+      <div id="madLibsStory"></div>
+    </main>
+  </body>
+</html>

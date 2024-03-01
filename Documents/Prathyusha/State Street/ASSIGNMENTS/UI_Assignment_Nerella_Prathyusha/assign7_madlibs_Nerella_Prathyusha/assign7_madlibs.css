@@ -1,0 +1,32 @@
+#madLibsStory .user-word {
+    color: darkblue; 
+    font-weight: bold;
+}
+body{
+    background-color: rgb(208, 224, 178);
+}
+
+#formContainer {
+    text-align: center ;
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1pt solid black;
+    margin-bottom: 20px;
+}
+
+#madLibsStory{
+    text-align: justify;
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1pt solid black;
+}
+
+#madLibsForm label,
+#madLibsForm input {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+
