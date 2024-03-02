@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(208, 224, 178);
+}
+
+h1 {
+    text-align: center;
+}
+
+#formContainer {
+    text-align: center ;
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1pt solid black;
+    margin-bottom: 20px;
+}
+
+#resultMessage{
+    text-align: center;
+    max-width: 500px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1pt solid black;
+}
+
+#tomThumbForm label,
+#tomThumbForm input {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+#resultMessage.success{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#resultMessage.fail{
+    color: red;
+    font-weight: bold;
+}
+

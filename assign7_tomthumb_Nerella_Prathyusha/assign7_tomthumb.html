@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assign7_tomthumb.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assign7_tomthumb.js" defer></script>
+    <title>Tom Thumb File Calculations</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tom Thumb</h1>
+    </header>
+    <main>
+      <div id="formContainer">
+        <form id="tomThumbForm">
+          <label for="width">Image Width(px):</label>
+          <input type="text" id="width" value="100" />
+          <br />
+
+          <label for="height">Image Height(px):</label>
+          <input type="text" id="height" value="80" />
+          <br />
+
+          <label for="colors">Number of Colors:</label>
+          <input type="text" id="colors" value="4" />
+          <br />
+
+          <button type="button" id="calculateBtn">Calculate File Size</button>
+        </form>
+      </div>
+
+      <div id="resultMessage"></div>
+    </main>
+  </body>
+</html>
